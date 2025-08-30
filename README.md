@@ -2,7 +2,7 @@
 
 Front-end practice to explore DOM basics with HTML, CSS, and vanilla JS.
 
-Solo project finished on Aug 30, 2025 as a part of the Scrimba Fullstack Developer Path.
+Solo project, built from scratch. Completed on Aug 30, 2025 as part of the Scrimba Fullstack Developer Path.
 
 See the deployed page at: https://fancy-pixie-7a240a.netlify.app/
 
