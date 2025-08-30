@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    background-color: #1F2937;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+h1 {
+    font-family: "Karla", sans-serif;
+    font-weight: 750;
+    font-size: 6.5vh;
+    margin: 0;
+}
+
+h2 {
+    font-family: "Karla", sans-serif;
+    font-weight: 750;
+    font-size: 6.5vh;
+    color: #4ADF86;
+    margin: 0;
+}
+
+h3 {
+    font-weight: 350;
+    font-size: 4vh;
+    color: #b4b5ba;
+    margin: 10px 0 51px 0;
+}
+
+button {
+    width: auto;
+    font-size: 3.5vh;
+    padding: 9px 15px;
+    border-radius: 7px;
+    border: none;
+    background-color: #10B981;
+    color: #fff;
+    flex: 0 0 auto;
+    align-self: flex-start;
+}
+
+hr {
+    margin-top: 35px;
+    width: 100%;
+    border: 1px solid #2F3E53
+}
+
+.password-container {
+    display: flex;
+    gap: 24px;
+}
+
+.password-container p {
+    color: #55F991;
+    background-color: #273549;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 3vh;
+    min-height: 3vh;
+    line-height: 1;
+}
+
+.password-settings {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    font-size: 3vh;
+    font-family: "Karla", sans-serif;
+}
+
+.password-settings p {
+    font-weight: 700;
+    color: #4ADF86;
+}
+
+.settings-el label {
+    margin-right: 10px;
+    
+}

@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Generate a</h1>
+            <h2>random password</h2>
+            <h3>Never use an insecure password again.</h3>
+            <button id="button-el" onclick="generatePass()">Generate passwords</button>
+            <div class="password-settings">
+                <p>Password Length</p>
+                <div class="settings-el">
+                    <input type="radio" id="pass-10" name="pass"  />
+                    <label for="pass-10">10 characters</label>
+                    <input type="radio" id="pass-12" name="pass"  />
+                    <label for="pass-12">12 characters</label>
+                    <input type="radio" id="pass-15" name="pass" checked />
+                    <label for="pass-15">15 characters</label> 
+                </div>
+            </div>
+            <div class="password-settings">
+                <p>Password Characters</p>
+                <div class="settings-el">
+                    <input type="checkbox" id="pass-letters" name="pass-letters" checked />
+                    <label for="pass-letters">Letters</label>
+                    <input type="checkbox" id="pass-numbers" name="pass-numbers" checked />
+                    <label for="pass-numbers">Numbers</label>
+                    <input type="checkbox" id="pass-symbols" name="pass-symbols" checked />
+                    <label for="pass-symbols">Symbols</label>    
+                </div>
+            </div>
+            <hr />
+            <div class="password-container">
+                <p id="password-el1"></p>
+                <p id="password-el2"></p>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
