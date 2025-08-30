@@ -6,7 +6,7 @@ Solo project finished on Aug 30, 2025 as a part of the Scrimba Fullstack Develop
 
 See the deployed page at: https://fancy-pixie-7a240a.netlify.app/
 
-## Learning highlights
+## Learning Highlights
 - For loops → generating 10/12/15-char passwords
 - Arrays → combining letters/numbers/symbols into a pool
 - If/else → selecting length & character types from the UI
